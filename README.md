@@ -84,7 +84,7 @@ Press ('Q') to exit the program.
 
 </p><div><img src="https://github.com/marsiitr/MaRS-Model/blob/master/coordinate-mapping/10819098_617672011688274_589552868_n.jpg"></div></li>
 
-</p><div><"img src=https://github.com/marsiitr/MaRS-Model/blob/master/coordinate-mapping/10836216_617671951688280_279821094_n.jpg"></div></li>
+</p><div><img src="https://github.com/marsiitr/MaRS-Model/blob/master/coordinate-mapping/10836216_617671951688280_279821094_n.jpg"></div></li>
 
 # Working
 
