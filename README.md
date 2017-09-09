@@ -1,7 +1,7 @@
 # MaRS-Model
 # Abstract
 
-MarsMOdel bot is an autonomous object detecting bot. It has the ability to detect the object moving in front of him. It uses Image Processing for detection of object. Motor drivers are used to control the movement of robot. Servos provide movement to head of the bot. A tiny wireless spy camera is mounted on the ceiling. live feed can be seen on the screen to which receiver is connected and tuned. 
+Skulls that stare right at you and follow your movement. You will use image processing to detect a person and use robotic eyes to follow them.
 
 # Team Members
 
@@ -75,4 +75,8 @@ After perspective transformation the recieved co-ordinate of the point will be w
 To store co-ordinates for perspective transformation press ('k').Order of storing points should be in clockwise sense starting from bottom-left corner. Stored point will be simultaneously printed on the terminal. to recieve the co-ordinate of the center of the area of object press key ('C')
 Again after storing all four point Another frame will appear will transformed live video, and pressing ('c') will print coresponding co-ordinate.
 Press ('Q') to exit the program.
+
+# Working
+
+Basically, the webcam sends video frames to OpenCV running on a PC. If OpenCV detects a face it will track it and calculate its center's X,Y coordinates. The coordinates are then passed on to the Arduino via a serial USB connection. The Arduino controls the movement of the webcam with the help of four servos to follow the detected light.it is an autonomous object detecting bot. It has the ability to detect the object moving in front of him. It uses Image Processing for detection of object. Motor drivers are used to control the movement of robot. Servos provide movement to head of the bot. A tiny wireless spy camera is mounted on the ceiling. live feed can be seen on the screen to which receiver is connected and tuned.
 
