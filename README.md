@@ -61,17 +61,21 @@ Other requirement to be satisfied to detect an object are-
 3. It will by default capture only one object if multiple objects are brought in front of it. The object detected will cover the largest the area on screen.
 
 <b>File:</b>
+
 The Program of concern or for MaRsModel is test.py, rest of them are usefull programs that helped me for better understanding of openCV.
 
 <b>Install:</b>
+
 To run this program on your system:
 Follow this tutorial to install openCV on your system- http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/ (For ubuntu 16.04)
 
 <b>What it does:</b>
+
 Function of this program is to store location of four points in space and perspectively transform the selected points. Movement of object can be detected by a red line vector.
 After perspective transformation the recieved co-ordinate of the point will be with respect to the transformed frame.
 
 <b>Working on test.py:</b>
+
 To store co-ordinates for perspective transformation press ('k').Order of storing points should be in clockwise sense starting from bottom-left corner. Stored point will be simultaneously printed on the terminal. to recieve the co-ordinate of the center of the area of object press key ('C')
 Again after storing all four point Another frame will appear will transformed live video, and pressing ('c') will print coresponding co-ordinate.
 Press ('Q') to exit the program.
