@@ -84,6 +84,8 @@ Press ('Q') to exit the program.
 
 </p><div><img src="https://github.com/marsiitr/MaRS-Model/blob/master/coordinate-mapping/10819098_617672011688274_589552868_n.jpg"></div></li>
 
+</p><div><"img src=https://github.com/marsiitr/MaRS-Model/blob/master/coordinate-mapping/10836216_617671951688280_279821094_n.jpg"></div></li>
+
 # Working
 
 Basically, the webcam sends video frames to OpenCV running on a PC. If OpenCV detects a face it will track it and calculate its center's X,Y coordinates. The coordinates are then passed on to the Arduino via a serial USB connection. The Arduino controls the movement of the webcam with the help of four servos to follow the detected light.it is an autonomous object detecting bot. It has the ability to detect the object moving in front of him. It uses Image Processing for detection of object. Motor drivers are used to control the movement of robot. Servos provide movement to head of the bot. A tiny wireless spy camera is mounted on the ceiling. live feed can be seen on the screen to which receiver is connected and tuned.
